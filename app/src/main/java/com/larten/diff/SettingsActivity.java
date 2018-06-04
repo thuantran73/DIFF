@@ -254,7 +254,7 @@ public class SettingsActivity extends AppCompatActivity {
         }
 
     }
-
+//a
     public static String random() {
         Random generator = new Random();
         StringBuilder randomStringBuilder = new StringBuilder();
