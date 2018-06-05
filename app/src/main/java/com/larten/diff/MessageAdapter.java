@@ -82,7 +82,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
             }
         });
     }
-
+//a
     @Override
     public int getItemCount() {
 
