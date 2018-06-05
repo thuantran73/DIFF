@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.larten.diff.R;
 import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -45,7 +46,7 @@ public class UsersActivity extends AppCompatActivity {
         FirebaseRecyclerAdapter<Users, UserViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Users, UserViewHolder>(
 
                 Users.class,
-                R.layout.users_single_layout,
+                R.layout.user_single_layout,
                 UserViewHolder.class,
                 mUserDatabase
         ) {
@@ -91,4 +92,3 @@ public class UsersActivity extends AppCompatActivity {
 
     }
 }
-
