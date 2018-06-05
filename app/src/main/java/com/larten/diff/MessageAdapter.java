@@ -88,5 +88,5 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
 
         return mMessageList.size();
     }
-
+//a
 }
